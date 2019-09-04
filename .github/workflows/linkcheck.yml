@@ -9,6 +9,6 @@ jobs:
     # This job runs on Linux
     runs-on: ubuntu-latest
     steps:
-      - uses: docker://testthedocs/linkcheck-md README.md
+      - uses: docker://testthedocs/linkcheck-md
       # This step prints the time.
       #- run: markdown-link-check README.md
