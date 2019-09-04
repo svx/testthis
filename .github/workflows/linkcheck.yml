@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: docker://testthedocs/linkcheck-md README.md
+      - uses: docker://testthedocs/linkcheck-md
       # This step prints the time.
