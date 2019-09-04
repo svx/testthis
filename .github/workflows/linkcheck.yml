@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: docker://testthedocs/linkcheck-md
       # This step prints the time.
-      #- run: markdown-link-check README.md
+      - run: README.md
