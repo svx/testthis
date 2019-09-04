@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - uses: docker://testthedocs/linkcheck-md
-        env:
-          FILE_PATH: README.md
+        with:
+          args: README.md
       # This step prints the time.
